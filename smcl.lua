@@ -85,11 +85,11 @@ function Doc(body, metadata, variables)
   add('{smcl}\n')
   add(body)
   if #notes > 0 then
-    add('<ol class="footnotes">')
     for _,note in pairs(notes) do
+      add('{phang}')
       add(note)
+      add('{p_end}')
     end
-    add('</ol>')
   end
   return table.concat(buffer,'\n')
 end
@@ -112,7 +112,7 @@ function LineBreak()
 end
 
 function Emph(s)
-  return "<em>" .. s .. "</em>"
+  return "{it:" .. s .. "}"
 end
 
 function Strong(s)
@@ -210,7 +210,7 @@ function BlockQuote(s)
 end
 
 function HorizontalRule()
-  return "<hr/>"
+  return "{hline}"
 end
 
 function CodeBlock(s, attr)
