@@ -1,5 +1,5 @@
 pandoc-smcl
-Copyright (C) 2015 Michael Stepner
+Copyright (C) 2015 Michael Stepner, 2021 Miklós Koren
 
 The pandoc-smcl program is based on sample.lua, written by John MacFarlane and distributed as part of the [Pandoc source code].  It inherits the "GPL, version 2 or later" license from John MacFarlane's work.
 
@@ -19,8 +19,9 @@ pandoc-smcl is released under the [GPL], version 2 or later:
    along with this program; if not, write to the Free Software
    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 
-Along with the complete source code, the GNU General Public License is available in the file LICENSE in the [pandoc-smcl source distribution].
+Along with the complete source code, the GNU General Public License is available in the file LICENSE in the [fork].
 
 [Pandoc source code]: https://github.com/jgm/pandoc
 [GPL]: http://www.gnu.org/copyleft/gpl.html
 [pandoc-smcl source distribution]: https://github.com/michaelstepner/pandoc-smcl
+[fork]: https://github.com/korenmiklos/pandoc-smcl
