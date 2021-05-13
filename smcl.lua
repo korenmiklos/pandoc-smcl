@@ -200,6 +200,8 @@ end
 function Header(lev, s, attr)
   if (lev==1) then
     return "\n{marker " .. attributesExtractID(attr) .. "}{...}\n{title:" .. s .. "}"
+  else
+    return "\n{marker " .. attributesExtractID(attr) .. "}{...}\n{dlgtab:" .. s .. "}"
   end
 end
 
