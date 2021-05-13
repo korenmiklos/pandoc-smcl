@@ -108,7 +108,7 @@ function Space()
 end
 
 function LineBreak()
-  return "<br/>"
+  return "{break}"
 end
 
 function Emph(s)
@@ -200,8 +200,10 @@ end
 function Header(lev, s, attr)
   if (lev==1) then
     return "\n{marker " .. attributesExtractID(attr) .. "}{...}\n{title:" .. s .. "}"
-  else
+  elseif (lev==2) then
     return "\n{marker " .. attributesExtractID(attr) .. "}{...}\n{dlgtab:" .. s .. "}"
+  else
+    return "\n{marker " .. attributesExtractID(attr) .. "}{...}\n{syntab:" .. s .. "}"
   end
 end
 
