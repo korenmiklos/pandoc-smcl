@@ -45,9 +45,16 @@
 
 
 
-{marker author}{...}
-{title:Author}
+{marker authors}{...}
+{title:Authors}
 
 {pstd}Michael Stepner{break}{browse "mailto:stepner@mit.edu":stepner@mit.edu}{p_end}
 
 {pstd}Miklós Koren{break}{browse "mailto:korenm@ceu.edu":korenm@ceu.edu}{p_end}
+
+
+{marker references}{...}
+{title:References}
+
+{text}{phang2}Markdown is an extremely popular markup language invented by John Gruber, which is designed to be simultaneously human-readable and machine-readable.{p_end}
+{phang2}SMCL is a markup language invented by StataCorp, which is used to format all text displayed in Stata.{p_end}

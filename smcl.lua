@@ -230,9 +230,9 @@ end
 function BulletList(items)
   local buffer = {}
   for _, item in pairs(items) do
-    table.insert(buffer, "<li>" .. item .. "</li>")
+    table.insert(buffer, "{phang2}" .. item .. "{p_end}")
   end
-  return "<ul>\n" .. table.concat(buffer, "\n") .. "\n</ul>"
+  return "{text}" .. table.concat(buffer, "\n") .. "\n"
 end
 
 function OrderedList(items)
