@@ -34,8 +34,20 @@
 {synopt:{opth geoid(varname)}}specifies the geographic ID variable to use; default is {bf:geoid(state)}{p_end}
 {synoptline}
 
+{pstd}I can refer to an <code>option</code>, or a <code>command</code>.{p_end}
+
+{pstd}We can only have one-liner code blocks for now.{p_end}
+
+{phang2}{cmd}. regress y x, robust
+
+
+{phang2}{cmd}. predict yhat, xb
+
+
 
 {marker author}{...}
 {title:Author}
 
 {pstd}Michael Stepner{break}{browse "mailto:stepner@mit.edu":stepner@mit.edu}{p_end}
+
+{pstd}Miklós Koren{browse "mailto:korenm@ceu.edu":korenm@ceu.edu}{p_end}

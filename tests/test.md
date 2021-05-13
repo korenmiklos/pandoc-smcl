@@ -19,8 +19,21 @@ It displays Alaska and Hawaii rescaled and moved to the bottom left of the map, 
 |--------|-------------|
 {opth geoid(varname)}  | specifies the geographic ID variable to use; default is **geoid(state)**
 
+I can refer to an `option`, or a `command`. 
+
+We can only have one-liner code blocks for now.
+```
+regress y x, robust
+```
+```
+predict yhat, xb
+```
+
 
 # Author
 
 Michael Stepner{break}
 stepner@mit.edu
+
+Miklós Koren
+korenm@ceu.edu

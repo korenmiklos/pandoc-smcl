@@ -223,8 +223,7 @@ function CodeBlock(s, attr)
     return '<img src="data:image/png;base64,' .. png .. '"/>'
   -- otherwise treat as code (one could pipe through a highlighter)
   else
-    return "<pre><code" .. attributes(attr) .. ">" .. escape(s) ..
-           "</code></pre>"
+    return "{phang2}{cmd}. " .. s
   end
 end
 
