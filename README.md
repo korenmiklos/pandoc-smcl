@@ -25,6 +25,11 @@ For the next steps of development, I plan to:
 3. Check out your beautiful help file in the Stata Viewer.
 4. Share it with others.
 
+To convert a GitHub-flavor markdown document to Stata help, use
+```
+pandoc -f gfm -t smcl.lua tests/test.md > tests/test.sthlp
+```
+
 [pandoc]: http://johnmacfarlane.net/pandoc/
 
 ### Background
