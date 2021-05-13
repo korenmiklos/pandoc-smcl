@@ -35,5 +35,5 @@ predict yhat, xb
 Michael Stepner{break}
 stepner@mit.edu
 
-Miklós Koren
+Miklós Koren  
 korenm@ceu.edu

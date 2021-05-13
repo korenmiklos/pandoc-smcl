@@ -147,7 +147,7 @@ function Image(s, src, tit)
 end
 
 function Code(s, attr)
-  return "<code" .. attributes(attr) .. ">" .. escape(s) .. "</code>"
+  return "{cmd:" .. escape(s) .. "}"
 end
 
 function InlineMath(s)
@@ -223,7 +223,7 @@ function CodeBlock(s, attr)
     return '<img src="data:image/png;base64,' .. png .. '"/>'
   -- otherwise treat as code (one could pipe through a highlighter)
   else
-    return "{phang2}{cmd}. " .. s
+    return "{phang2}{cmd}. " .. escape(s)
   end
 end
 
